@@ -1,0 +1,26 @@
+[SHARPy]
+flow = BeamLoader, AerogridLoader
+case = plot
+route = ./
+write_screen = off
+write_log = False
+log_folder = ./output/
+log_file = log
+save_settings = False
+[BeamLoader]
+unsteady = True
+orientation = 1.0, 0, 0, 0
+for_pos = 0.0, 0, 0
+[AerogridLoader]
+unsteady = on
+aligned_grid = True
+initial_align = True
+freestream_dir = [1. 0. 0.]
+mstar = 400
+control_surface_deflection = ,
+wake_shape_generator = StraightWake
+[[control_surface_deflection_generator_settings]]
+[[wake_shape_generator_input]]
+u_inf = 2.0
+u_inf_direction = [0.99939083 0.         0.0348995 ]
+dt = 0.125

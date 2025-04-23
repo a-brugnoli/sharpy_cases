@@ -79,5 +79,5 @@ Structural eigenvalues
 |      7       |   0.000000   |  526.068130  |  83.726343   |  83.726343   |  -0.000000   |   0.011944   |
 |      8       |   0.000000   |  627.142016  |  99.812752   |  99.812752   |  -0.000000   |   0.010019   |
 |      9       |   0.000000   |  695.195371  |  110.643780  |  110.643780  |  -0.000000   |   0.009038   |
-FINISHED - Elapsed time = 2.1419366 seconds
-FINISHED - CPU process time = 20.1170706 seconds
+FINISHED - Elapsed time = 1.0300096 seconds
+FINISHED - CPU process time = 2.6282386 seconds

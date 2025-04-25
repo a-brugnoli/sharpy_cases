@@ -1,11 +1,7 @@
 __pycache__/
-<<<<<<< HEAD
-*.pyc
-*.eps
-*.png
-=======
 .devcontainer/
 *.pyc
 *.eps
+*.png
 
->>>>>>> origin/main
+
